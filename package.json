@@ -1,0 +1,26 @@
+{
+  "name": "openlayers",
+  "version": "0.0.1",
+  "description": "simple openlayers map.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "keywords": [
+    "map",
+    "openlayers",
+    "node"
+  ],
+  "author": "Eric Robsky Huntley",
+  "license": "MIT",
+  "dependencies": {
+    "ol": "^6.1.1",
+    "ol-mapbox-style": "^5.0.2",
+    "proj4": "^2.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
